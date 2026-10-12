@@ -1,0 +1,10 @@
+country,model,mae,rmse,selected
+all,baseline,24047.38803236607,28525.351527785948,baseline
+all,random_forest,43210.8474403397,49327.77127000269,baseline
+all,gradient_boosting,42345.53873466488,49223.40488705493,baseline
+united_kingdom,baseline,18943.969237723206,24317.361688080367,baseline
+united_kingdom,random_forest,73845.40416132972,87962.08147325453,baseline
+united_kingdom,gradient_boosting,35720.52367965235,43506.39353190967,baseline
+usa,baseline,34.78125,51.700474490085675,baseline
+usa,random_forest,77.34709789606458,88.60366494289737,baseline
+usa,gradient_boosting,83.36290821307047,98.88795541828001,baseline

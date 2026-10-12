@@ -1,0 +1,16 @@
+test_api_errors (test_project.IntegrationTests.test_api_errors) ... ok
+test_api_train_predict_country_and_all (test_project.IntegrationTests.test_api_train_predict_country_and_all) ... ok
+test_ingestion (test_project.IntegrationTests.test_ingestion) ... ok
+test_logging_isolation_and_roundtrip (test_project.IntegrationTests.test_logging_isolation_and_roundtrip) ... ok
+test_malformed_ingestion (test_project.IntegrationTests.test_malformed_ingestion) ... ok
+test_features_do_not_use_future (test_project.ModelTests.test_features_do_not_use_future) ... ok
+test_future_target (test_project.ModelTests.test_future_target) ... ok
+test_invalid_date_and_history (test_project.ModelTests.test_invalid_date_and_history) ... ok
+test_training_serialization_and_prediction (test_project.ModelTests.test_training_serialization_and_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.199s
+
+OK
+
+Exit code: 0

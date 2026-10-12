@@ -1,0 +1,54 @@
+       country             model          mae         rmse selected
+           all          baseline 24047.388032 28525.351528 baseline
+           all     random_forest 43210.847440 49327.771270 baseline
+           all gradient_boosting 42345.538735 49223.404887 baseline
+united_kingdom          baseline 18943.969238 24317.361688 baseline
+united_kingdom     random_forest 73845.404161 87962.081473 baseline
+united_kingdom gradient_boosting 35720.523680 43506.393532 baseline
+           usa          baseline    34.781250    51.700474 baseline
+           usa     random_forest    77.347098    88.603665 baseline
+           usa gradient_boosting    83.362908    98.887955 baseline
+[
+  {
+    "country": "all",
+    "origins": 99,
+    "selected": "baseline",
+    "mae": 59876.51420634919,
+    "rmse": 64248.0703055965,
+    "baseline_mae": 59876.51420634919,
+    "novelty_rate": 0.494949494949495,
+    "model_version": "1f614e92c39c4f41b8acca2e0684946a",
+    "revenue_wape": 0.24911855599571342,
+    "nonoverlap_origins": 4,
+    "nonoverlap_wape": 0.25143902941765595,
+    "mae_alert": true
+  },
+  {
+    "country": "united_kingdom",
+    "origins": 99,
+    "selected": "baseline",
+    "mae": 54811.474112554126,
+    "rmse": 63633.71542469438,
+    "baseline_mae": 54811.474112554126,
+    "novelty_rate": 0.5050505050505051,
+    "model_version": "d91308fa0a4c48f8bc1aba432f4412b2",
+    "revenue_wape": 0.26026921444861173,
+    "nonoverlap_origins": 4,
+    "nonoverlap_wape": 0.2810984543902177,
+    "mae_alert": true
+  },
+  {
+    "country": "usa",
+    "origins": 99,
+    "selected": "baseline",
+    "mae": 273.0452813852814,
+    "rmse": 360.60051897339196,
+    "baseline_mae": 273.0452813852814,
+    "novelty_rate": 0.31313131313131315,
+    "model_version": "b46c128159bb43bb9cf31ca1da25420f",
+    "revenue_wape": 1.7589288793474074,
+    "nonoverlap_origins": 4,
+    "nonoverlap_wape": 2.0714285714285716,
+    "mae_alert": true
+  }
+]

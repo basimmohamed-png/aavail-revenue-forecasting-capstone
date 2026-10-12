@@ -1,0 +1,9 @@
+name: Verify tests and Docker
+on: [push, pull_request]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build image, run tests, check HTTP predictions
+        run: sh verify_docker.sh

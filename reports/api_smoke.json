@@ -1,0 +1,22 @@
+{
+  "initial_predictions": [
+    {
+      "country": "all",
+      "prediction": 180295.0403571429,
+      "elapsed_seconds": 6.1814334429998326
+    },
+    {
+      "country": "united_kingdom",
+      "prediction": 167046.04392857145,
+      "elapsed_seconds": 1.0430848149999292
+    },
+    {
+      "country": "usa",
+      "prediction": 0,
+      "elapsed_seconds": 0.6955663520000144
+    }
+  ],
+  "concurrent_requests": 12,
+  "max_elapsed_seconds": 1.530862002999811,
+  "unique_log_events": 15
+}

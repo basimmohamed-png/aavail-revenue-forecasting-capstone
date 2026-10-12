@@ -1,0 +1,17 @@
+127.0.0.1 - - [12/Oct/2026 13:14:41] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:42] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:42] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:43] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:43] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:43] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:43] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "POST /predict HTTP/1.1" 200 -
+127.0.0.1 - - [12/Oct/2026 13:14:44] "GET /logfile HTTP/1.1" 200 -
+15 real HTTP predictions and unique isolated log events passed
