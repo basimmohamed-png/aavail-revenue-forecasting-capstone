@@ -50,7 +50,9 @@ python run_tests.py
 
 ## Docker
 
-**Docker build/run was not verified in the authoring environment: no Docker executable is installed.** Run the commands below on a machine with Docker before claiming this criterion passes. The included GitHub Actions workflow also runs verify_docker.sh on every push; after uploading, check that the Actions run is green.
+**Docker build and execution verified successfully in GitHub Actions.** Nine tests passed during image build and again inside the running image. Real HTTP predictions passed for `all` and `united_kingdom`. [View successful verification](https://github.com/basimmohamed-png/aavail-revenue-forecasting-capstone/actions/runs/38244620994).
+
+To reproduce locally:
 
 ```bash
 docker build -t aavail-capstone .
@@ -74,7 +76,7 @@ On Linux/macOS/Git Bash, `./verify_docker.sh` builds the image, runs tests and c
 | Automated data ingestion | `core.ingest()` handles source column aliases and invalid schema |
 | Multiple models compared | `reports/model_comparison.csv` |
 | EDA visualizations | `reports/eda.png` |
-| Working Docker image | Dockerfile and verification script supplied; **local build/run pending** |
+| Working Docker image | Image build, nine tests and HTTP predictions passed in GitHub Actions |
 | Baseline visualization | `reports/baseline_comparison.png`, `reports/production_comparison.png` |
 
 Read [Final report](FINAL_REPORT.md) directly on GitHub, or open [HTML report](reports/Final_Report.html) locally. To view it, download/open it locally with the images in the same directory; GitHub does not render arbitrary HTML reports. CSV/JSON outputs and PNG charts are directly reviewable on GitHub.
@@ -84,7 +86,7 @@ Read [Final report](FINAL_REPORT.md) directly on GitHub, or open [HTML report](r
 Data and business task: https://github.com/aavail/ai-workflow-capstone at commit `fd6182c4458bccb56024047a1a85f506a90caf98`.
 Source train/production JSONs are not committed. Run `python download_data.py` to fetch the public course data from the pinned upstream commit and verify every SHA256 hash before saving compressed JSONs. `core.ingest()` supports both plain and compressed JSON. This solution is independently implemented; the supplied reference's shuffled train/test procedure is not used because adjacent 30-day targets overlap. No fitted gold-standard model/prediction artifact is provided by that source, so a direct gold-standard numerical comparison cannot be verified; a transparent baseline is supplied.
 
-The included dataset is course material from the upstream repository. No additional license for that data is asserted here. Dependencies retain their own licenses.
+The upstream dataset is course material from the upstream repository. No additional license for that data is asserted here. Dependencies retain their own licenses.
 
 ## Operational limits
 

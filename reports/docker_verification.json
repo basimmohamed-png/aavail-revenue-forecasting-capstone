@@ -1,0 +1,14 @@
+{
+  "repository": "basimmohamed-png/aavail-revenue-forecasting-capstone",
+  "run_id": 38244620994,
+  "job_id": 114795310398,
+  "tested_commit": "18c2b351fa2c4a38dec025fc9e3f312aac526bc6",
+  "conclusion": "success",
+  "checks": [
+    "Docker image build",
+    "9 unit/integration tests during build",
+    "9 tests inside image",
+    "Real HTTP predictions: all and united_kingdom"
+  ],
+  "url": "https://github.com/basimmohamed-png/aavail-revenue-forecasting-capstone/actions/runs/38244620994"
+}
